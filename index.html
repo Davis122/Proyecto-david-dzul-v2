@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="panteras.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Panteras Hopelchen</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- encabezado y menú -->
+        <header>
+            <h1 class="gradient-text">Panteras </h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#sobremi" onclick="seleccionar()" >Quienes somos</a>
+                <a href="#curriculum" onclick="seleccionar()">Experiencia</a>
+                <a href="#porfolio" onclick="seleccionar()">Recorrido</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- sección Inicio -->
+        <section id="inicio">
+            <div class="fila">
+                <div class="col">
+                    <p>Somos las Panteras</p>
+                    <h1 class="gradient-text">Banda de guerra</h1>
+                    <button><a href="https://www.facebook.com/quique.dzul.7?mibextid=ZbWKwL">Contactanos</a></button>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="panteras.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Sobre Mí -->
+        <section id="sobremi">
+            <div class="fila">
+                <div class="col info">
+                    <h3>Quienes somos</h2>
+                    <h2>Somos una banda de guerra local</h2>
+                    <p>Una gran familia a la que estamos siempre ansiosos de recibirlos, sin importar la experiencia</p>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/copa7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Curriculum -->
+        <section id="curriculum">
+            <h3>Experiencia</h3>
+            <div class="fila">
+                <div class="col">
+                    <p class="experiencia">Experiencia</p>
+                    <h2>Mas de 8 años de experiencia como <span class="txtEspecial">Banderos</span></h2>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Champoton</h4>
+                            <p>Copa leones negros (2017-2018)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Ticul</h4>
+                            <p>Copa león imperial (2019)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Ticul</h4>
+                            <p>Copa león imperial (2020)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Champoton</h4>
+                            <p>Copa bahia de la victoria (2022)</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección porfolio -->
+        <section id="porfolio">
+            <h3>Recorrido</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/copa1.jpg" alt="">
+                        <p class="desc">Trabajo 1</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa2.jpg" alt="">
+                        <p class="desc">Trabajo 2</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa3.jpg" alt="">
+                        <p class="desc">Trabajo 3</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/cop4.jpg" alt="">
+                        <p class="desc">Trabajo 4</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa5.jpg" alt="">
+                        <p class="desc">Trabajo 5</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa6.jpg" alt="">
+                        <p class="desc">Trabajo 6</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/copa7.jpg" alt="">
+                        <p class="desc">Trabajo 7</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa8.jpg" alt="">
+                        <p class="desc">Trabajo 8</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa9.jpg" alt="">
+                        <p class="desc">Trabajo 9</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copaa10.jpg" alt="">
+                        <p class="desc">Trabajo 10</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/copa11.jpg" alt="">
+                        <p class="desc">Trabajo 11</p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- sección contacto -->
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/Bdg.panteras.oficial?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+
+            </div>
+            <form action="registro_usuario.php" method="POST">
+                <div class="entrada">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="entrada">
+                    <label for="">Correo</label>
+                    <input type="text" name="correo">
+                </div>
+                <div class="entrada">
+                    <label for="">Tema</label>
+                    <input type="text" name="tema">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
